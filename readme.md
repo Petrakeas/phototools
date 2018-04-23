@@ -47,5 +47,5 @@ lots_of_files
 
 and you want to find out which of these files are not already included under the previous example's `albums` folder.
 
-Running `orphan.py` script will parse all files under the `albums` directory, by diving into all nested subfolders, and compare their hash with the hash of the files under `lots_of_files`. The files that don't match (and hence you don't already have their copy stored), will be moved to the output folder.
+Running `orphan.py` script will parse all files under the `albums` directory, by diving into all nested subfolders, and compare their hash with the hash of the files under `lots_of_files`. The files that don't match (and hence you don't already have their copy stored), will be copied to the output folder.
 

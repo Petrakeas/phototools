@@ -14,7 +14,7 @@ time_format = "%Y-%m-%d"
 
 ignored_files = {'Thumbs.db', 'desktop.ini', 'Folder.jpg', 'feed.rss'}
 ignored_file_extensions = {'.ini', '.url'}
-media_file_extensions = {'.jpg', '.jpeg', '.avi', '.mp4', '.mov', 'mpeg', '.ogg', ".gif"}
+media_file_extensions = {'.jpg', '.jpeg', '.avi', '.mp4', '.mov', '.mpeg', '.ogg', ".gif", ".png"}
 
 
 def rename_albums(albums_path):
