@@ -59,7 +59,7 @@ def get_oldest_date(directory):
     # Try to find the date from the images
     images = list(file for file in os.listdir(directory)
                   if os.path.isfile(os.path.join(directory, file))
-                  and os.path.splitext(file)[1].lower() == ".jpg")
+                  and os.path.splitext(file)[1].lower() is ".jpg" or ".jpeg")
     for image in images:
         date = get_created_date(os.path.join(directory, image))
         if oldest_date is None:
